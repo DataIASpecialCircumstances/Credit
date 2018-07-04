@@ -1,0 +1,102 @@
+#########################################################################
+#####       				Description des données				    #####
+Comptes : 
+A11 = 'CC < 0Euros'  => Compte débiteur 
+A12 = '0euros <= CC < 200Euros'
+A13 = 'CC > 200Euros'
+A14 = 'Pas de compte'
+
+Historique credit : 
+A30 = 'Impayés passés'
+A31 = 'Impayés en cours dans une autre banque'
+A32 = 'Jamais aucun credit'
+A33 = 'Credit en cours sans retard'
+A34 = 'Credit passés sans retard'
+
+Objet credit : 
+A40 = 'Voiture neuve'
+A41 = 'Voiture occasion'
+A42 = 'Mobilier'
+A43 = 'Video HIFI'
+A44 = 'Electromenager'
+A45 = 'Travaux'
+A46 = 'Etudes'
+A47 = 'Vacances'
+A48 = 'Formation'
+A49 = 'Business'
+A50 = 'Autres'
+
+Epargne : 
+A60 = 'Pas épargne'
+A61 = ' < 100euros'
+A62 = '100euros <= Epargne < 500Euros'
+A63 = '500euros <= Epargne < 1000Euros'
+A64 = 'Epargne > 1000Euros'
+A65 = 'Pas Epargne'
+
+Anciennete Emploi
+A71 = 'Sans Emploi'
+A72 = 'Emploi < 1an'
+A73 = '1an <= Emploi < 4ans'
+A74 = '4ans <= Emploi < 7ans'
+A75 = 'Emploi >= 7ans'
+
+Situation familiale : 
+A91 = 'Homme divorcé / séparé'
+A92 = 'Homme divorcé / séparé / remarié'
+A93 = 'Homme célibataire'
+A94 = 'Homme marié / veuf'
+A95 = 'Femme célibataire'
+
+Garanties : 
+A101 = 'Pas garantie'
+A102 = 'Co-emprunteur'
+A103 = 'Garant'
+
+Anciennete domicile : 
+1 = 'Dom < 1an'
+2 = '1an <= Dom < 4ans'
+3 = '4ans <= Dom < 7ans'
+4 = 'Dom >= 7ans'
+
+Le Nombre de personnes à charge : 
+1 = '0 - 2'
+2 = ' >= 3'
+
+Nombre credits détenus ds létablissement (en comptant celui demandé) : 
+1 = 'un crédit'
+2 = '2 ou 3 crédits'
+3 = '4 ou 5 crédits'
+4 = ' >= 6 crédits'
+
+Taux Endettement (Taux effort) :
+1 = 'End < 20%'
+2 = '20% <= End < 25%'
+3 = '25% <= End < 35%'
+4 = 'End >= 35%'
+# Rq : Changer le nom de la var Taux Effort par TxEndtmnt ds le vecteur myVariablesNames!
+# Rq : la var taux_effort n'est pas redonnante avec la var Nb_credits ?
+
+Les biens détenus par le demandeur (Biens) : 
+A121 = 'Immobilier'
+A122 = 'Assurance-vie'
+A123 = 'Voiture ou autre'
+A124 = 'Aucun bien connu'
+
+La détention de crédit ds 1autre établissement (Autres_credits)  : 
+A141 = 'Autres banques'
+A142 = 'Etablissements crédits'
+A143 = 'Aucun crédit'
+
+Le type du logement (Statut_domicile) 
+A151 = 'Locataire'
+A152 = 'Propriétaire'
+A153 = 'Logement gratuit'
+
+Un numéro de téléphone fourni ou non (Telephone) 
+A151 = 'Sans Tél'
+A152 = 'Avec Tél'
+
+La var à expliquer (Cible) 
+1 = 'OK' (Credit bien remboursé) 
+2 = 'KO' (Credit non remboursé) 
