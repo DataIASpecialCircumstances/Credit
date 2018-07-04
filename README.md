@@ -1,2 +1,2 @@
 # Credit
-Regression lineaire
+Regression logistique
