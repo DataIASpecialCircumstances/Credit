@@ -1,0 +1,2 @@
+# Credit
+Regression lineaire
